@@ -1,9 +1,10 @@
 {
     "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
-    "version": "5.0.9",
+    "name": "ga-sei-boston.browser-template",
+    "version": "0.1.0",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "sass": "node-sass --watch assets/styles/scss -o assets/styles",
+        "serve": "browser-sync start --server --files 'index.html, assets/styles/main.css, assets/scripts/index.js'"
     },
     "description": "A grayscale one page HTML theme for Bootstrap.",
     "keywords": [
@@ -19,7 +20,10 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
         "email": "feedback@startbootstrap.com"
     },
-    "license": "MIT",
+    "license": {
+        "software": "GNU GPLv3",
+        "content": "CC­BY­NC­SA 4.0"
+    },
     "author": "Start Bootstrap",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
@@ -35,16 +39,12 @@
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "7.0.0",
-        "gulp-clean-css": "4.2.0",
-        "gulp-header": "2.0.9",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
-    }
+        "browser-sync": "^2.26.7",
+        "eslint": "^3.15.0",
+        "eslint-config-standard": "^6.2.1",
+        "eslint-plugin-promise": "^3.4.1",
+        "eslint-plugin-standard": "^2.0.1",
+        "node-sass": "^4.12.0"
+    },
+    "private": true
 }
