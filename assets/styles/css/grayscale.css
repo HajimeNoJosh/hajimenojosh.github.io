@@ -3,10 +3,25 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
+html{
+  width: 100%;
+}
 
 #mainNav {
   min-height: 56px;
   background-color: #fff;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-logo {
+  height: 100px;
+  width: 100px;
 }
 
 #mainNav .navbar-toggler {
