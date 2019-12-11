@@ -58,9 +58,11 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Joshuah Martin</h1>
-        <h2 class="mx-auto my-0 text-uppercase"> A Story </h2>
-      </div>
-    </div>
+        <br>
+        <br>
+        <a href="./joshuah.m.martin.resume.pdf" target="_blank" class='stylehref'>Resume</a>
+            </div>
+          </div>
   </header>
 
   <!-- About Section -->
@@ -69,8 +71,8 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="mb-4 text-black">About Me</h2>
-          <p class="text-black-50 ">I was a student at GA within the Software Engineering Immersive program. I have picked up the skills necessary to work as a full-stack engineer through hardwork at General Assembly. I began work in Boston with my History degree but I found my degree
-            to not fit me as I grew. So, I am through GA and my programming skills, I am paving my way forward into a more exciting and intriguing field.
+          <p class="text-black-50 ">I am a graduate of General Assembly’s Software Engineering program. I am goal oriented and persistent on completing tasks to the best of my ability. I am approachable, relatable, and friendly to those around me. I’ve been pursuing a career in tech after self teaching and taking Codecademy's full stack app immersive as well as finishing the GA boot camp. Through this pursuit I have gained knowledge in Javascript, React, Ruby, Ruby on Rails, and Express.
+I want to build something that matters on a grand scheme. I am always in amazement at these new innovations coming out of tech and I want to be a part of that. I want to build things that provide an interesting, creative experience for users and make someone go ‘Wow!’ on an everyday basis. When I am not working on code I like to work on improving my chess skills, and on a more relaxing basis watch anime/youtube.
         </div>
       </div>
     </div>
@@ -218,30 +220,13 @@
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
           <img class="img-fluid mb-3 mb-lg-0" src="assets/styles/img/capstone.jpg" alt="Chess Game Board">
-          <img class="img-fluid mb-3 mb-lg-0" src="assets/styles/img/capstone2.jpg" alt="Chess Game Coords">
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Capstone</h4>
+            <h4>Highlighted Project</h4>
             <p class="text-black-50 mb-0">
-This App is a chess game app that stores users moves and can update an API with those moves.
-
-<br>In the beginning my main goal was to create a form that could take in chess coordinates and update an array in my express backend for a signed in user. The user would access this form by creating a game. This user could then view those 'games' and delete them if they wanted. This was when I reached my first hiccup and needed to figure out how to store multiple updates without replacing the whole array. This was solved by copying the already made array into a variable, updating that variable and storing that variable into my state of coords that I could send to my API.
-
-<br>My project began to develop from there. I began focus on creating a game board, which I did by seperating out two new components Board and Square so that I could create a board that is filled with individual squares that have certain traits. This is when I hit a new snag. I was able to fill up the board just fine, but updating the state of the board proved to be difficult. I created an array of the initital state of the board, that way the board would rerender if I clicked on a piece.
-
-<br>When I was able to do this, I began to work on logic for chess, and this is where the project currently stands. It is lacking in some of the fundamental rules of chess.
-
-<ol class="text-black-50 mb-0">
-<li>Promotion for pawns is only to queen</li>
-<li>Checks/Checkmate (I do end the game if a king is taken)</li>
-<li>I would also like to work on things outside of game logic, including styling and API work</li>
-</ol>
-<p class="text-black-50 mb-0"> <br>I would also like to work on:
-<ol class="text-black-50 mb-0">
-<li>A home screen that explains the rules of chess</li>
-<li>Storing the state of the game board so when I view games I can also render a board</li>
-</ol>
+              This app is a game app where users can sign in and be able to create a game of chess that can fully be played from start to finish. The app can store the coordinates made during the game, and submit them for later access. Users can also delete any games they have made. This app has been my most challanged app by far. The amount of logic in chess is astounding and I hope to continue building upon it in the years to come.
+              <br><br>Built with React, Javascript, Express.JS, Bootstrap
           </div>
         </div>
       </div>
@@ -256,7 +241,8 @@ This App is a chess game app that stores users moves and can update an API with 
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Team Undefined Chatroom</h4>
-                <p class="mb-0 text-white-50">This app is a chatroom app where users can sign in and have access to a chatroom that they create messages sent in real time to other users logged in. Users can also edit and delete their own messages, and have no fear of other users deleting their messages. </p>
+                <p class="mb-0 text-white-50">This app is a chatroom app where users can sign in and have access to a chatroom that they create messages sent in real time to other users logged in. Users can also edit and delete their own messages, and have no fear of other users deleting their messages. As this was a team project, I was not responsible for buiding the full app. Instead I was the front end manager. In this role I helped managed merge conflicts, code for the front end, and wrote requests.</p>
+                <br><br> <p class="mb-0 text-white-50">Built with Node.JS, Express.JS, Mongoose, MongoDB, SocketsIo</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -274,8 +260,9 @@ This App is a chess game app that stores users moves and can update an API with 
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">A Pirate Adventure</h4>
-                <p class="mb-0 text-white-50">In this app we were tasked with creating a full-stack application that has as a MVP a one to one relationship with a database of our choosing. I chose characters as my relationship and from there my app
-                  became a choose your own adventure game. Users can sign in and have access to characters that they create who each have a individual stories depending on the path they chose.</p>
+                <p class="mb-0 text-white-50">In this app I created a full-stack application that as a MVP had one to one relationship with a database. I chose characters as my relationship and from there my app
+                  became a choose your own adventure game. Users can sign in and have access to characters that they create who each have a individual stories depending on the path they chose. I spent awhile writing and wiring the story into the app, which challenged me in thinking in a different way. Although this app is not as intensive code wise, the logic in keeping track of the story and the creativity makes this app stand out.</p>
+<p class="mb-0 text-white-50"> <br> <br> Built with Javascript, JQuery, AJAX, and Ruby on Rails </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -294,7 +281,8 @@ This App is a chess game app that stores users moves and can update an API with 
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Tic-Tac-Toe</h4>
                 <p class="mb-0 text-white-50"> In this app we were tasked with creating a tic-tac-toe game engine supporting a Authentication API and Game storage API. This project includes: Sign-in, Sign-up, Change Password, Sign-out, Amount of
-                  games played per account, games completed, games in progress and Tic-Tac-Toe game engine.</p>
+                  games played per account, games completed, games in progress and Tic-Tac-Toe game engine. This app was my first real project in programming. I am proud of the progress I have made since this app, but this still stands out to me. I enjoyed being able to add different touches, such as being able to choose the color of your win.</p>
+<p class="mb-0 text-white-50"><br><br>Built with Javascript, JQuery, and AJAX
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -315,7 +303,7 @@ This App is a chess game app that stores users moves and can update an API with 
 
       <div class="row">
 
-        <div class="col-md-3 mb-2 mb-md-0">
+        <div class="col-md-4 mb-2 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-map-marked-alt text-primary mb-2"></i>
@@ -326,7 +314,7 @@ This App is a chess game app that stores users moves and can update an API with 
           </div>
         </div>
 
-        <div class="col-md-3 mb-2 mb-md-0">
+        <div class="col-md-4 mb-2 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-envelope text-primary mb-2"></i>
@@ -339,7 +327,7 @@ This App is a chess game app that stores users moves and can update an API with 
           </div>
         </div>
 
-        <div class="col-md-3 mb-2 mb-md-0">
+        <div class="col-md-4 mb-2 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
@@ -350,17 +338,6 @@ This App is a chess game app that stores users moves and can update an API with 
           </div>
         </div>
 
-        <div class="col-md-3 mb-2 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-file-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Resume</h4>
-              <hr class="my-4">
-              <a href="./joshuah.m.martin.resume.pdf" target="_blank">Resume</a>
-              <div class="small text-black-50"></div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
