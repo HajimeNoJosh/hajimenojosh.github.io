@@ -323,8 +323,8 @@ a:focus, a:hover {
 }
 
 .stylehref:hover {
-  background-color: gray;
-  border: gray solid 2px;
+  background-color: #1572B6;
+  border: #1572B6 solid 2px;
   color: white;
 }
 
