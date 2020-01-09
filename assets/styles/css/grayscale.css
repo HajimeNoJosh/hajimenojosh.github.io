@@ -114,7 +114,7 @@ html{
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background.jpeg");
 }
 
 .masthead h1 {
@@ -323,8 +323,12 @@ a:focus, a:hover {
 }
 
 .stylehref:hover {
-  background-color: #FF7E47;
-  border: #FF7E47 solid 2px;
+  background-color: gray;
+  border: gray solid 2px;
+  color: white;
+}
+
+.stylehref:visited {
   color: white;
 }
 
