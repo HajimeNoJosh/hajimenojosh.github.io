@@ -322,6 +322,11 @@ a:focus, a:hover {
   border-radius: 5px;
 }
 
+.chess {
+  height: 100%;
+  width: 100%;
+}
+
 .stylehref:hover {
   background-color: #1572B6;
   border: #1572B6 solid 2px;
